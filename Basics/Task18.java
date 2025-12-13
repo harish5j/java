@@ -1,0 +1,13 @@
+import java.util.*;
+public class Task18 {
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the date: ");
+        int num1 = sc.nextInt();
+        System.out.print("Enter the month:");
+        int num2 = sc.nextInt();
+        System.out.print("Enter the year: ");
+        int num3 = sc.nextInt();
+        System.out.println(num1+"/"+num1+"/"+num3);
+    }
+}
