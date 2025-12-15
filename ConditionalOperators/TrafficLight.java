@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class TrafficLight {
+    public static void main(String[] args) {
+        String color = new Scanner(System.in).next();
+
+        if (color.equalsIgnoreCase("Red"))
+            System.out.println("Stop");
+        else if (color.equalsIgnoreCase("Yellow"))
+            System.out.println("Ready");
+        else if (color.equalsIgnoreCase("Green"))
+            System.out.println("Go");
+        else
+            System.out.println("Invalid Color");
+    }
+}

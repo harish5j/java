@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class SameLastDigit {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int y1=sc.nextInt(), y2=sc.nextInt();
+
+        if (y1%10 == y2%10)
+            System.out.println("Same Last Digit");
+        else
+            System.out.println("Different Last Digit");
+    }
+}
